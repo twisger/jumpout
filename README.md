@@ -1,0 +1,3 @@
+# jumpout README
+
+press ';' to jump out of close symbol like bracket, quote...
