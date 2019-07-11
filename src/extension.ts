@@ -20,7 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
         }
         function cursorRight() {
             commands.executeCommand("cursorRight");
-        }
+        } 
         if (currentPositionInLine > 0) {
             const previousCharacter = getPreviousChar(currentPositionInLine, currentLineText);
             const nextCharacter = getNextChar(currentPositionInLine, currentLineText);
